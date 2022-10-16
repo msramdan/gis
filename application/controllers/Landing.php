@@ -11,13 +11,28 @@ class Landing extends CI_Controller {
 
 	public function index()
 	{
+		$this->template->load('landing', 'landing/index');
+	}
+
+	public function wisata()
+	{
+		$wisata = $this->Objek_wisata_model->get_all();
+		$data = array(
+			'wisata' => $wisata,
+		);
+
+		$this->template->load('landing', 'landing/wisata', $data);
+	}
+
+    public function lokasi()
+	{
 
         $data = array(
             'list_objek_wisata' => $this->Objek_wisata_model->get_all(),
             'da_controller' => $this,
         );
 
-		$this->load->view('landing/index', $data);
+		$this->load->view('landing/lokasi', $data);
 	}
 
     public function ListPicture($id)
