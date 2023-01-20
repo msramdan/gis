@@ -12,7 +12,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta name="description" content="aplikasi daiklat" />
 	<meta name="keywords" content="badiklat sulut" />
-	<meta name="author" content="Muhamad Saeful ramdan - 083874731480" />
+	<meta name="author" content="Inggit Gustiar - 085864849973" />
 	<title>Kecamatan Pasawahan Kuningan</title>
 	<link href="<?php echo base_url() ?>assets/frontend/assets/front/img/baner.png" rel="shortcut icon" type="image/png">
 	<link href="<?php echo base_url() ?>assets/frontend/assets/front/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -96,18 +96,18 @@
 							<div class="latest-posts">
 								<article class="post media-post clearfix pb-0 mb-10">
 									<div class="post-right">
-										<h5 class="post-title mt-0 mb-5"><a href="#">Talaga Biru Cicerem</a></h5>
+										<h5 class="post-title mt-0 mb-5"><a href="#">Telaga Biru Cicerem</a></h5>
 									</div>
 								</article>
 
 								<article class="post media-post clearfix pb-0 mb-10">
 									<div class="post-right">
-										<h5 class="post-title mt-0 mb-5"><a href="#">Talaga Nilam</a></h5>
+										<h5 class="post-title mt-0 mb-5"><a href="#">Telaga Nilam</a></h5>
 									</div>
 								</article>
 								<article class="post media-post clearfix pb-0 mb-10">
 									<div class="post-right">
-										<h5 class="post-title mt-0 mb-5"><a href="#">Talaga Remis</a></h5>
+										<h5 class="post-title mt-0 mb-5"><a href="#">Telaga Remis</a></h5>
 									</div>
 								</article>
 								<article class="post media-post clearfix pb-0 mb-10">

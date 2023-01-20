@@ -28,6 +28,7 @@
 						<th>Jam Buka</th>
 						<th>Objek Wisata</th>
 						<th>Alamat</th>
+						<th>Deskripsi</th>
 						<th>Fasilitas</th>
 						<th>Harga Tiket</th>
 					</tr>
@@ -38,8 +39,9 @@
 							<td><?php echo $row->jam_buka ?> - <?php echo $row->jam_tutup ?></td>
 							<td><strong><?php echo $row->nama_objek_wisata ?></strong></td>
 							<td><?php echo $row->alamat ?></td>
+							<td><?php echo $row->deskripsi ?></td>
 							<td><?php echo $row->fasilitas ?></td>
-							<td><?php echo rupiah($row->harga_tiket)  ?></td>
+							<td><?php echo rupiah($row->harga_tiket)  ?> / Orang</td>
 						</tr>
 					<?php } ?>
 				</tbody>

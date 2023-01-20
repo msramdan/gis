@@ -41,9 +41,9 @@
 											<div class="overlay-shade"></div>
 											<div class="course-info">
 												<a href="#">
-													<h5 class="text-white font-16 font-weight-600 mb-5">Talaga Nilam</h5>
+													<h5 class="text-white font-16 font-weight-600 mb-5">Telaga Nilam</h5>
 												</a>
-												<p>Talaga Nilam</p>
+												<p>Telaga Nilam</p>
 											</div>
 										</div>
 									</div>
@@ -81,9 +81,9 @@
 									<div class="overlay-shade"></div>
 									<div class="course-info">
 										<a href="#">
-											<h5 class="text-white font-16 font-weight-600 mb-5">Talaga Biru Cicerem</h5>
+											<h5 class="text-white font-16 font-weight-600 mb-5">Telaga Biru Cicerem</h5>
 										</a>
-										<p>Talaga Biru Cicerem</p>
+										<p>Telaga Biru Cicerem</p>
 									</div>
 								</div>
 							</div>

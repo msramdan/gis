@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Aplikasi GIS</title>
+    <title>Aplikasi GIS Kecamatan Pasawahan</title>
 
     <!-- Bootstrap -->
     <link href="<?php echo base_url() ?>assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -75,7 +75,7 @@
                 <ul class="nav side-menu">
                   <li><a href="<?php echo base_url() ?>home"><i class="fa fa-home"></i> Home</a></li>
 									<li><a href="<?php echo base_url() ?>objek_wisata"><i class="fa fa-map-marker" aria-hidden="true"></i> Objek Wisata</a></li>
-									<li><a href="<?php echo base_url() ?>sett_kecamatan/update/1"><i class="fa fa-cogs"></i> Sett Kecamatan</a></li>
+									
                 
 								</ul>
               </div>
