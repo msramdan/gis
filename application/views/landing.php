@@ -36,6 +36,9 @@
 
 
 <body class="">
+	<div class="flash-data" data-flashdata="<?= $this->session->flashdata('message'); ?>"></div>
+	<?php if ($this->session->flashdata('message')) : ?>
+	<?php endif; ?>
 	<div id="wrapper" class="clearfix">
 		<!-- Header -->
 		<header id="header" class="header header-floating header-floating-text-dark">
@@ -52,6 +55,7 @@
 								<li class=""><a href="<?= base_url() ?>landing">Home</a></li>
 								<li><a href="<?= base_url() ?>landing/wisata">Objek Wisata</a></li>
 								<li><a href="<?= base_url() ?>landing/lokasi">Lokasi Objek Wisata</a></li>
+								<li><a href="<?= base_url() ?>landing/kontak">Kontak</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -62,7 +66,7 @@
 		<!-- content -->
 		<?php echo $contents ?>
 
-		
+
 		<!-- Footer -->
 		<footer id="footer" class="footer" data-bg-color="#212331" style="background: rgb(33, 35, 49) !important;">
 			<div class="container pt-70 pb-40">
@@ -87,6 +91,7 @@
 								<li><a href="<?= base_url() ?>landing" target="">Home</a></li>
 								<li><a href="<?= base_url() ?>landing/wisata" target="">Objek Wisata</a></li>
 								<li><a href="<?= base_url() ?>landing/lokasi" target="">Lokasi Objek Wisata</a></li>
+								<li><a href="<?= base_url() ?>landing/kontak" target="">Kontak</a></li>
 							</ul>
 						</div>
 					</div>
